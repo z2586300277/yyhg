@@ -6,9 +6,11 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { ThreeEditor } from '../editor/lib'
 import { mapSceneModelUrls, loadIndexDbModelList } from '../editor/sceneModelUrl'
-import templateJson from './main.json'
+import onlineJson from './main.json'
+import localJson from './local.json'
 
 ThreeEditor.dracoPath = __isProduction__ ? '/threejs-editor-beta/draco/' : '/draco/'
+const templateJson = __isProduction__ ? onlineJson : localJson
 
 const containerRef = ref(null)
 let editor = null
