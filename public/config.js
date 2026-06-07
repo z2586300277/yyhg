@@ -85,6 +85,8 @@ window.models = [
 // 页脚链接配置
 window.footerLinks = {
     right: [
+        { text: "📦此项目源码", url: "https://github.com/z2586300277/yyhg" },
+
         { text: "🍂GitHub", url: "https://github.com/z2586300277/threejs-editor-beta" },
 
         { text: "⚡直接下载", url: "https://pan.quark.cn/s/1f507069e8f1" },
