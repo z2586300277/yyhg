@@ -89,12 +89,14 @@ window.footerLinks = {
 
         { text: "⚡直接下载", url: "https://pan.quark.cn/s/1f507069e8f1" },
 
-        { text: "📝编辑项目", url: "https://z2586300277.github.io/yyhg/#/editor" }
+        
     ],
     left: [
         { text: "🍃开源案例", url: "https://z2586300277.github.io/three-cesium-examples" },
 
-        { text: "🍁新版文档", url: "https://z2586300277.github.io/editor-docs/" }
+        { text: "🍁新版文档", url: "https://z2586300277.github.io/editor-docs/" },
+
+        { text: "📝编辑项目", url: "https://z2586300277.github.io/yyhg/#/editor" }
     ]
 };
 
