@@ -14,16 +14,16 @@ const containerRef = ref(null)
 let editor = null
 let onResize = null
 
-const saved = localStorage.getItem('dayao_main-newEditor')
+const saved = localStorage.getItem('yyhg_main-newEditor')
 if (!saved) {
-  localStorage.setItem('dayao_main-newEditor', JSON.stringify(templateJson))
-  localStorage.setItem('new_sceneName', 'dayao_main')
+  localStorage.setItem('yyhg_main-newEditor', JSON.stringify(templateJson))
+  localStorage.setItem('new_sceneName', 'yyhg_main')
   const newSceneList = localStorage.getItem('new_sceneList')
-  if (!newSceneList) localStorage.setItem('new_sceneList', '[{"name":"三维测试"},{"name":"dayao_main"}]')
+  if (!newSceneList) localStorage.setItem('new_sceneList', '[{"name":"三维测试"},{"name":"yyhg_main"}]')
   else {
     const list = JSON.parse(newSceneList)
-    if (!list.find(i => i.name === 'dayao_main')) {
-      list.push({ name: 'dayao_main' })
+    if (!list.find(i => i.name === 'yyhg_main')) {
+      list.push({ name: 'yyhg_main' })
       localStorage.setItem('new_sceneList', JSON.stringify(list))
     }
   }
