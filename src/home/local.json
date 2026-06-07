@@ -292,8 +292,8 @@
                 "modelConfig": {
                     "useGlobalShadow": false,
                     "useGlobalMaterial": false,
-                    "isSaveChildren": false,
-                    "isSaveMaterials": false,
+                    "isSaveChildren": true,
+                    "isSaveMaterials": true,
                     "castShadow": false,
                     "receiveShadow": false,
                     "envMap": false,
@@ -343,8 +343,8 @@
                 "modelConfig": {
                     "useGlobalShadow": false,
                     "useGlobalMaterial": false,
-                    "isSaveChildren": false,
-                    "isSaveMaterials": false,
+                    "isSaveChildren": true,
+                    "isSaveMaterials": true,
                     "castShadow": false,
                     "receiveShadow": false,
                     "envMap": false,
